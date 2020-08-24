@@ -12,7 +12,7 @@ public class DriverFactory {
 			System.setProperty("webdriver.gecko.driver", "E:\\WebDrivers\\geckodriver.exe");
 			driver=new FirefoxDriver();
 		}else if(browserType.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "E:\\WebDrivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 			driver =new ChromeDriver();
 		}else if(browserType.equalsIgnoreCase("ie")) {
 			System.setProperty("webdriver.edge.driver", "E:\\WebDrivers\\MicrosoftWebDriver.exe");
